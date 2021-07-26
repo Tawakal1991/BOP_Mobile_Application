@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAdmission"
+    android:layout_margin="10dp"
+    >
+
+    <EditText
+        android:id="@+id/editPaintType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pain Type..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editPainRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pain Region..."
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status..."
+        android:text="inactive"
+        android:padding="10dp"
+        />
+
+    <Switch
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Status: "
+        android:text="Status: "
+        android:textSize="20dp"
+        android:checked="false" />
+
+    <EditText
+        android:id="@+id/editHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Patient History..."
+        android:gravity="start|top"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:height="300dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Admission"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Show Admissions"
+        android:onClick="screenAddAdmission"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+
+
+</LinearLayout>

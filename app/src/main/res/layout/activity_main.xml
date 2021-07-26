@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Sign up"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textSize="10dp"
+        android:textColorHint="@color/cardview_dark_background"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textSize="10dp"
+        android:textColorHint="@color/cardview_dark_background"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/repassword"
+        android:hint="Confirmpassword"
+        android:textSize="10dp"
+        android:textColorHint="@color/cardview_dark_background"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp" />
+
+    <Switch
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Role: "
+        android:text="Role: "
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/signup"
+        android:text="RegisterDoctor"
+        android:textSize="10dp"
+        android:onClick="screenPatients"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sign_up_admin"
+        android:text="RegisterAdmin"
+        android:textSize="10dp"
+        android:onClick="screenClinicians"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signin"
+        android:text="Already have an account"
+        android:textSize="10dp"
+        android:onClick="screenLogin"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginBottom="30dp" />
+
+
+
+</LinearLayout>

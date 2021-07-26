@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity"
+    android:layout_margin="10dp"
+    >
+
+    <Switch
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Question 1: "
+        android:text="Do you think your pain at attended to by the staff an acceptable time frame? "
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Question 2: "
+        android:text="Do you think pain relief in acceptable time frame? "
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Question 3: "
+        android:text="Do you think the pain relief that you were given was adequate? "
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Question 4: "
+        android:text="Do you think the staff understood your pain related concern well? "
+        android:textSize="20dp" />
+
+
+    <Switch
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Question 5: "
+        android:text="Do you find your overall experience with the pain management in the ED satisfactory or unsatisfactory? "
+        android:textSize="20dp" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Feedback"
+        android:onClick="addfeedBack"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="Back"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+
+
+</LinearLayout>
