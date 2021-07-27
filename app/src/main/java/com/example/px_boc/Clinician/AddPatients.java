@@ -1,14 +1,15 @@
-package com.example.px_boc;
+package com.example.px_boc.Clinician;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import com.example.px_boc.R;
 
-public class adminActivity extends AppCompatActivity {
+public class AddPatients extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin);
+        setContentView(R.layout.activity_add_patients);
     }
 }

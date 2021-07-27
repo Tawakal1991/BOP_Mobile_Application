@@ -1,10 +1,12 @@
-package com.example.px_boc;
+package com.example.px_boc.Clinician;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.px_boc.R;
 
 public class ShowAdmissions extends AppCompatActivity {
 

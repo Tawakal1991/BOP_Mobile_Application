@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".adminActivity"></activity>
-        <activity android:name=".inputPatientPain" />
-        <activity android:name=".addMedicationAdmin" />
-        <activity android:name=".addmedicationAdmission" />
-        <activity android:name=".FeedbackActivity" />
-        <activity android:name=".GraphActivity" />
-        <activity android:name=".ShowAdmissions" />
-        <activity android:name=".AddAdmission" />
-        <activity android:name=".AddClinician" />
-        <activity android:name=".ShowAllClinicians" />
-        <activity android:name=".AddPatient" />
-        <activity android:name=".ShowAllPatients" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".Clinician.AddMedicationToPatient"></activity>
+        <activity android:name=".Clinician.AddPatients" />
+        <activity android:name=".Admin.AdminActivity" />
+        <activity android:name=".Patient.PatientPain" />
+        <activity android:name=".Admin.AddMedication" />
+        <activity android:name=".Clinician.FeedbackActivity" />
+        <activity android:name=".Clinician.GraphActivity" />
+        <activity android:name=".Clinician.ShowAdmissions" />
+        <activity android:name=".Clinician.AddAdmission" />
+        <activity android:name=".Admin.AddClinician" />
+        <activity android:name=".Clinician.ShowAllClinicians" />
+        <activity android:name=".Clinician.ShowPatients" />
+        <activity android:name=".Authentication.LoginActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Authentication.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

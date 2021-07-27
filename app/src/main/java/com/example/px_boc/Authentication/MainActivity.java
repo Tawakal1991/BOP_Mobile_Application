@@ -1,20 +1,15 @@
-package com.example.px_boc;
+package com.example.px_boc.Authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.example.px_boc.R;
+import com.example.px_boc.Clinician.ShowAllClinicians;
+import com.example.px_boc.Clinician.ShowPatients;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
-
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void screenPatients (View view) {
-        startActivity(new Intent(MainActivity.this, ShowAllPatients.class));
+        startActivity(new Intent(MainActivity.this, ShowPatients.class));
     }
 
     public void screenClinicians (View view) {

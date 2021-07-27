@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddPatient"
+    tools:context=".Clinician.AddPatients"
     android:layout_margin="10dp"
     >
 
@@ -87,7 +87,7 @@
         android:onClick="screenAddAdmission"
         android:layout_gravity="center"
         android:layout_marginTop="20sp"
-         />
+        />
 
     <Button
         android:layout_width="300dp"

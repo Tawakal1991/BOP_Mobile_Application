@@ -1,4 +1,4 @@
-package com.example.px_boc;
+package com.example.px_boc.Clinician;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ShowAllPatients extends AppCompatActivity {
+import com.example.px_boc.Authentication.MainActivity;
+import com.example.px_boc.R;
+
+public class ShowPatients extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +18,10 @@ public class ShowAllPatients extends AppCompatActivity {
     }
 
     public void screenRegister (View view) {
-        startActivity(new Intent(ShowAllPatients.this, MainActivity.class));
+        startActivity(new Intent(ShowPatients.this, MainActivity.class));
     }
     public void screenAddPatient (View view) {
-        startActivity(new Intent(ShowAllPatients.this, AddPatient.class));
+        startActivity(new Intent(ShowPatients.this, AddPatients.class));
     }
 
 }

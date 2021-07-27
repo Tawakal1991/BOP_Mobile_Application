@@ -1,10 +1,12 @@
-package com.example.px_boc;
+package com.example.px_boc.Clinician;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.px_boc.R;
 
 public class GraphActivity extends AppCompatActivity {
 
@@ -15,11 +17,11 @@ public class GraphActivity extends AppCompatActivity {
     }
 
     public void screenPatients (View view) {
-        startActivity(new Intent(GraphActivity.this, ShowAllPatients.class));
+        startActivity(new Intent(GraphActivity.this, ShowPatients.class));
     }
 
     public void screenMedication (View view) {
-        startActivity(new Intent(GraphActivity.this, addmedicationAdmission.class));
+        startActivity(new Intent(GraphActivity.this, AddMedicationToPatient.class));
     }
 
     public void feedbackPage (View view) {

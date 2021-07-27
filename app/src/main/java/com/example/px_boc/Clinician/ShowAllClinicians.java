@@ -1,10 +1,14 @@
-package com.example.px_boc;
+package com.example.px_boc.Clinician;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.px_boc.Admin.AddClinician;
+import com.example.px_boc.Authentication.MainActivity;
+import com.example.px_boc.R;
 
 public class ShowAllClinicians extends AppCompatActivity {
 
